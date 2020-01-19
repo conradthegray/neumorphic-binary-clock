@@ -3,6 +3,7 @@ module.exports = {
     title: `Neumorphic Binary Clock #Neumorphism`,
     description: `Binary Clock in Neumorphic UI`,
     author: `@conradthegray`,
+    baseUrl: `https://conradthegray.github.io/neumorphic-binary-clock/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
