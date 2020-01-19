@@ -1,0 +1,16 @@
+.App-header {
+  margin-bottom: 2rem;
+}
+
+.App-header span {
+  margin-bottom: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.App-header h1 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 0;
+}

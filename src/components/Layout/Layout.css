@@ -1,0 +1,29 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+  
+body {
+  background: #282c34;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  color: #d4d4d4;
+}
+
+a {
+  color: #d4d4d4;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.5);
+}
+
+a:hover {
+  border-bottom: 1px solid #d4d4d4;
+}
