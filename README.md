@@ -1,1 +1,0 @@
-# Neumorphic Binary Clock #Neumorphism
