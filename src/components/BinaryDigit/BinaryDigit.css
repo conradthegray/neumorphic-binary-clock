@@ -4,8 +4,8 @@
 }
 
 .BinaryDigit-digit {
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   margin: 0.25rem;
   box-shadow: 4px 4px 9px #22252c, -4px -4px 9px #2e333c;
@@ -19,9 +19,9 @@
   display: block;
   top: 50%;
   left: 50%;
-  transform: translate(-12px, -12px);
-  width: 24px;
-  height: 24px;
+  transform: translate(-8px, -8px);
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
 }
 
@@ -31,4 +31,17 @@
 
 .BinaryDigit-digit-off::before {
   background: linear-gradient(145deg, #424957, #383d49);
+}
+
+@media (min-width: 380px) {
+  .BinaryDigit-digit {
+    width: 44px;
+    height: 44px;
+  }
+
+  .BinaryDigit-digit:before {
+    transform: translate(-12px, -12px);
+    width: 24px;
+    height: 24px;
+  }
 }

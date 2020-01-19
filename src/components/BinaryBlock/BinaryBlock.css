@@ -1,4 +1,10 @@
 .BinaryBlock {
   display: flex;
-  margin: 1rem;
+  margin: 0.5rem;
+}
+
+@media (min-width: 380px) {
+  .BinaryBlock {
+    margin: 1rem;
+  }
 }
