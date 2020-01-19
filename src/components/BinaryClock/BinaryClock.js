@@ -4,21 +4,21 @@ import BinaryBlock from '../BinaryBlock';
 
 import './BinaryClock.css';
 
+const getCurrentTime = () => {
+  const now = new Date();
+
+  return {
+    hour: now.getHours(),
+    minutes: now.getMinutes(),
+    seconds: now.getSeconds(),
+  };
+};
+
 const BinaryClock = () => {
-  let [now, setNow] = useState({
-    hour: 0,
-    minutes: 0,
-    seconds: 0,
-  });
+  let [now, setNow] = useState(getCurrentTime());
 
   useInterval(() => {
-    const currentNow = new Date();
-
-    setNow({
-      hour: currentNow.getHours(),
-      minutes: currentNow.getMinutes(),
-      seconds: currentNow.getSeconds(),
-    });
+    setNow(getCurrentTime());
   }, 1000);
 
   return (
