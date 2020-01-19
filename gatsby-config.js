@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/neumorphic-binary-clock`,
   siteMetadata: {
     title: `Neumorphic Binary Clock #Neumorphism`,
     description: `Binary Clock in Neumorphic UI`,
