@@ -44,6 +44,11 @@ const Footer = () => {
               Github
             </a>
           </li>
+          <li>
+            <a href="https://paypal.me/conradthegray?locale.x=en_GB">
+              Can I have a cookie?
+            </a>
+          </li>
         </ul>
       </div>
       <div>
